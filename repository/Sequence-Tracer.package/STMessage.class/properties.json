@@ -1,0 +1,17 @@
+{
+	"category" : "Sequence-Tracer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PeterUhnak 5/25/2016 09:07",
+	"instvars" : [
+		"object",
+		"selector",
+		"arguments",
+		"returnValue" ],
+	"name" : "STMessage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
