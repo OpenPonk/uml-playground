@@ -1,0 +1,15 @@
+{
+	"category" : "UML-Sequence-Tracer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"test2",
+		"number" ],
+	"name" : "STTest2",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
