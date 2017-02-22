@@ -1,5 +1,5 @@
 as yet unclassified
 testEmpty
-	self assert: (generator generateFor: #()) equals: '@startuml
-
-@enduml'
+	self
+		assert: (generator textFor: #())
+		equals: '@startuml' , String lf , '@enduml'

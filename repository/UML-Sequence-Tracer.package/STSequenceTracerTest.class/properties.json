@@ -1,0 +1,15 @@
+{
+	"category" : "UML-Sequence-Tracer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tracer",
+		"instance" ],
+	"name" : "STSequenceTracerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

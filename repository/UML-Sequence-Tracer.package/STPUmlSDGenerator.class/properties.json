@@ -4,12 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PeterUhnak 2/22/2017 23:42",
+	"commentStamp" : "PeterUhnak 2/23/2017 00:07",
 	"instvars" : [
-		"sender",
-		"receiver",
-		"selector" ],
-	"name" : "STMessage",
+		 ],
+	"name" : "STPUmlSDGenerator",
 	"pools" : [
 		 ],
 	"super" : "Object",

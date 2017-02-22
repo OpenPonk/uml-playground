@@ -2,11 +2,14 @@ as yet unclassified
 testBody
 	| result |
 	result := generator
-		bodyFor:
-			{STMessage object: STTest1 new selector: #something.
-			STMessage object: STTest2 new selector: #otherthing}.
+		textFor:
+			{STMessage sender: nil receiver: STTest1 new selector: #something.
+			STMessage
+				sender: STTest1 >> #something
+				receiver: STTest2 new
+				selector: #validate:}.
 	self
 		assert: result
 		equals:
-			'[-> STTest1 : something
-STTest1 -> STTest2 : otherthing'
+			'@startuml' , String lf , '[-> STTest1 : something' , String lf
+				, 'STTest1 -> STTest2 : validate:' , String lf , '@enduml'

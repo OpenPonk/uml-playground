@@ -3,13 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
-	"commentStamp" : "PeterUhnak 2/22/2017 23:42",
+		"DefaultInstaller" ],
+	"commentStamp" : "PeterUhnak 2/22/2017 23:43",
 	"instvars" : [
-		"sender",
-		"receiver",
-		"selector" ],
-	"name" : "STMessage",
+		"metaLink",
+		"messages" ],
+	"name" : "STSequenceTracer",
 	"pools" : [
 		 ],
 	"super" : "Object",

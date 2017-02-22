@@ -1,4 +1,4 @@
 running
 setUp
 	super setUp.
-	generator := STPlantUmlSDGenerator new
+	generator := STPUmlSDGenerator new
