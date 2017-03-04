@@ -2,4 +2,4 @@ accessing
 senderNameFor: aSenderMethod
 	^ (self isUnknown: aSenderMethod)
 		ifTrue: [ '[' ]
-		ifFalse: [ aSenderMethod methodClass name ]
+		ifFalse: [ self quoteIfNeeded: aSenderMethod methodClass name ]

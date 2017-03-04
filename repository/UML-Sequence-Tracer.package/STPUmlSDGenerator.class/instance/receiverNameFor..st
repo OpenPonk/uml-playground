@@ -2,4 +2,4 @@ accessing
 receiverNameFor: aReceiverObject
 	^ (self isUnknown: aReceiverObject)
 		ifTrue: [ '[' ]
-		ifFalse: [ aReceiverObject className ]
+		ifFalse: [ self quoteIfNeeded: aReceiverObject className ]
